@@ -8,5 +8,10 @@
 #print(input_line)
 
 #Question 2
-input_name = input()
-print("Hello, "+ input_name)
+#input_name = input()
+#print("Hello, "+ input_name)
+
+#Question 3
+first_name = input()
+last_name = input()
+print(f"Your full name is: {first_name} {last_name}")
