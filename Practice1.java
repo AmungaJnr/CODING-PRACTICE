@@ -15,11 +15,11 @@ import java.util.*;
 public class Practice1{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        String inputLine = scan.nextLine();
+        String inputName = scan.nextLine();
         scan.close();
         
-        System.out.println(inputLine);
-        System.out.println(inputLine);
+        System.out.println("Hello, " + inputName);
+        
 
 
     }
