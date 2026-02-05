@@ -15,10 +15,11 @@ import java.util.*;
 public class Practice1{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        String inputName = scan.nextLine();
+        String firstName = scan.nextLine();
+        String lastName = scan.nextLine();
         scan.close();
         
-        System.out.println("Hello, " + inputName);
+        System.out.println(String.format("Your full name is: %s %s", firstName, lastName));
         
 
 
