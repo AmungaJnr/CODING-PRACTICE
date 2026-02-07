@@ -36,10 +36,10 @@ public class StudentGradeTracker {
 
     public static void printPassFail(String name, int grade){
         if (grade >= 50) {
-            System.out.println(name + "passed with " + grade);
+            System.out.println(name + " passed with " + grade);
             
         }else{
-            System.out.println(name + "passed with "+ grade);
+            System.out.println(name + " passed with "+ grade);
         }
     }
 
